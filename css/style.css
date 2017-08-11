@@ -1,0 +1,96 @@
+/* YOUR CUSTOM STYLES */
+@font-face {
+  font-family: Zent;
+  font-weight: 400;
+  src: url("http://api.diversity.io/components/izettle/*/files/fonts/Zent-Regular.otf") format("opentype");
+}
+
+
+
+
+/*.navbar-dark .navbar-brand:focus, .navbar-dark .navbar-brand:hover {
+    color: #009edd;
+}
+
+
+.navbar-dark .navbar-brand{
+  color:#009edd;
+}
+
+.navbar.navbar-dark .breadcrumb .nav-item .nav-link, .navbar.navbar-dark .navbar-nav .nav-item .nav-link {
+    color: black;
+    transition: .35s;
+}
+
+.navbar.navbar-dark .breadcrumb .nav-item .nav-link:hover, .navbar.navbar-dark .navbar-nav .nav-item .nav-link:hover {
+    color: #009edd;
+}
+
+.navbar.navbar-dark .breadcrumb .nav-item.active>.nav-link:hover, .navbar.navbar-dark .navbar-nav .nav-item.active>.nav-link:hover, .navbar.navbar-dark .navbar-toggler, .navbar.navbar-dark form .form-control, .pagination .active .page-link:hover {
+    color: #FF8940;
+}
+
+.navbar-toggler{background-color: #009edd;}*/
+.view {
+   background: url(../img/showcase3.jpg)no-repeat center center fixed!important;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
+
+
+html,
+body,
+header,
+.view {
+    height: 100%;
+}
+
+.view {
+    background: url("http://mdbootstrap.com/img/Photos/Horizontal/Work/full page/img%20(2).jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+.flex-center {
+    color: #fff;
+}
+
+
+footer.page-footer {
+    margin-top: 20px;
+    padding-top: 20px;
+    background-color: #002D40;
+    color: #fff;
+}
+
+
+
+
+.jumbotron {
+    background-color: #fff;  
+}
+
+
+
+
+.card-block{
+  padding: 15px;
+}
+
+.layer {
+    background-color: rgba(0, 0, 0, 0.74);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.contact{
+  padding-bottom: 20px;
+}

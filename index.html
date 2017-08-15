@@ -55,7 +55,7 @@
                         <h1 class="h1-responsive wow fadeInDown">Modern marknadsföring</h1>
                     </li>
                     <li>
-                        <p class=" wow fadeInDown" data-wow-delay="0.2s">Genom åren har internet haft en enorm positiv inverkan på marknadsföring. Idag kan företag små som stora nå sina kunder online till ett förmånligt pris</p>
+                        <p class=" wow fadeInDown" data-wow-delay="0.2s">Genom åren har internet haft en enorm positiv inverkan på marknadsföring. Idag kan företag små som stora nå sina kunder online till ett förmånligt pris.</p>
                     </li>
                     <li>
                         <!-- <a href="#kontakt" class="btn btn-primary btn-lg wow fadeInLeft slide-section" data-wow-delay="0.4s" >Kontakt</a> -->
@@ -112,13 +112,13 @@
                       <div class="col-md-3">
 
                           <!--Card-->
-                          <div class="card hoverable">
+                          <div class="card ">
 
                               <!--Card image-->
                               <div class="view overlay hm-white-slight">
                                   <img src="img/phone.jpg" class="img-fluid" alt="">
                                   <a>
-                                      <div class="mask"></div>
+
                                   </a>
                               </div>
                               <!--/.Card image-->
@@ -143,13 +143,13 @@
                       <div class="col-md-3">
 
                           <!--Card-->
-                          <div class="card hoverable">
+                          <div class="card ">
 
                               <!--Card image-->
                               <div class="view overlay hm-white-slight">
                                   <img src="img/install.jpg" class="img-fluid" alt="">
                                   <a>
-                                      <div class="mask"></div>
+
                                   </a>
                               </div>
                               <!--/.Card image-->
@@ -174,13 +174,13 @@
                       <div class="col-md-3">
 
                           <!--Card-->
-                          <div class="card hoverable">
+                          <div class="card ">
 
                               <!--Card image-->
                               <div class="view overlay hm-white-slight">
                                   <img src="https://mdbootstrap.com/images/regular/city/img%20(4).jpg" class="img-fluid" alt="">
                                   <a>
-                                      <div class="mask"></div>
+
                                   </a>
                               </div>
                               <!--/.Card image-->
@@ -205,13 +205,13 @@
                       <div class="col-md-3">
 
                           <!--Card-->
-                          <div class="card hoverable">
+                          <div class="card ">
 
                               <!--Card image-->
                               <div class="view overlay hm-white-slight">
                                   <img src="img/design.jpg" class="img-fluid" alt="">
                                   <a>
-                                      <div class="mask"></div>
+
                                   </a>
                               </div>
                               <!--/.Card image-->
@@ -234,7 +234,7 @@
                   </div>
                   <div class="container" style="margin-top:20px;">
                     <div class="row">
-                      <div class="col-md-12">
+                      <div class="col-md-12" style="margin-bottom:60px;">
                         <a href="tjanst.html">
                         <button type="button"   class="btn btn-info"><i class="fa fa-info-circle" aria-hidden="true" style="padding-right:5px;"></i>Fördjupad info</button></a>
                       </div>
@@ -246,11 +246,15 @@
               <!--/Section: Best features-->
 
 
-<div class="container">
+
+
+<!-- Contact section  -->
+
+ <!-- <div class="container">
 
 
 
-              <!--Section: Contact-->
+
               <section id="contact">
                 <div class="divider-new">
                     <h2 class="h2-responsive wow fadeInDown" style="visibility: visible; animation-name: fadeInDown;" id="kontaktFkontakt
@@ -259,20 +263,15 @@
                 </div>
 
                   <div class="row">
-                      <!--First column-->
+
                       <div class="col-md-8" style="padding-bottom:20px;">
-                        <!--First column-->
 
 
-                            <!--Map container-->
+
                             <div id="map-container" class="z-depth-1" style="height: 300px"></div>
 
                         </div>
-                        <!--/First column-->
 
-                      <!--/First column-->
-
-                      <!--Second column-->
                       <div class="col-md-4">
 
 
@@ -292,11 +291,11 @@
 
 
                       </div>
-                      <!--/Second column-->
+
                   </div>
               </section>
-              <!--Section: Contact-->
-      </div>
+
+      </div> -->
 
 
 
@@ -400,7 +399,9 @@ Följ oss på Facebook! </p>
 <!--Google Maps Settings-->
 
 
+
 <script>
+var map
        function init_map() {
            var var_location = new google.maps.LatLng(55.603480, 13.023570);
 
@@ -420,9 +421,16 @@ Följ oss på Facebook! </p>
 
            var_marker.setMap(var_map);
 
+           map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: -34.397, lng: 150.644},
+          zoom: 8
+        });
+
        }
 
        google.maps.event.addDomListener(window, 'load', init_map);
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpLiDQqMWDDqJSsrByzfnM83dU6GM8E2o&callback=init_map"  async defer>
 </script>
 
 <!--Animations' initialization-->

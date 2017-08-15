@@ -18,7 +18,7 @@ console.log($(linkHref).offset().top);
 
 $('html, body').animate({
   scrollTop:$(linkHref).offset().top-navHeight-35
-},0);
+},1000);
 
 
     e.preventDefault();

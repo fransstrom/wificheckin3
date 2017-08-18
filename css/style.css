@@ -6,31 +6,6 @@
 }
 
 
-
-
-/*.navbar-dark .navbar-brand:focus, .navbar-dark .navbar-brand:hover {
-    color: #009edd;
-}
-
-
-.navbar-dark .navbar-brand{
-  color:#009edd;
-}
-
-.navbar.navbar-dark .breadcrumb .nav-item .nav-link, .navbar.navbar-dark .navbar-nav .nav-item .nav-link {
-    color: black;
-    transition: .35s;
-}
-
-.navbar.navbar-dark .breadcrumb .nav-item .nav-link:hover, .navbar.navbar-dark .navbar-nav .nav-item .nav-link:hover {
-    color: #009edd;
-}
-
-.navbar.navbar-dark .breadcrumb .nav-item.active>.nav-link:hover, .navbar.navbar-dark .navbar-nav .nav-item.active>.nav-link:hover, .navbar.navbar-dark .navbar-toggler, .navbar.navbar-dark form .form-control, .pagination .active .page-link:hover {
-    color: #FF8940;
-}
-
-.navbar-toggler{background-color: #009edd;}*/
 .view {
    background: url(../img/showcase3.jpg)no-repeat center center fixed!important;
    -webkit-background-size: cover;

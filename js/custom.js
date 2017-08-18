@@ -5,16 +5,16 @@ $('.slide-section').click(function(e){
 
 
 
-// Get navHeight
+// // Get navHeight
 var navHeight= $('nav').outerHeight();
 
 var linkHref= $(this).attr('href');
 
-console.log(navHeight);
+// console.log(navHeight);
+//
+// console.log($(linkHref).offset().top);
 
-console.log($(linkHref).offset().top);
-
-
+console.log(linkHref);
 
 $('html, body').animate({
   scrollTop:$(linkHref).offset().top-navHeight-35
@@ -23,20 +23,6 @@ $('html, body').animate({
 
     e.preventDefault();
 });
-
-
-});
-
-
-
-
-
-$(".myBox").click(function() {
-
-
-  window.location = $(this).find("a").attr("href");
-  return false;
-
 
 
 });

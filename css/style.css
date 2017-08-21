@@ -5,7 +5,9 @@
   src: url("http://api.diversity.io/components/izettle/*/files/fonts/Zent-Regular.otf") format("opentype");
 }
 
-
+body {
+    font-family: zent;
+}
 
 .navbar{
   padding-top: 0px;
